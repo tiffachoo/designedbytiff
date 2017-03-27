@@ -1,0 +1,32 @@
+h1 {
+	font-family: $font-primary-cond;
+	font-weight: 300;
+	font-size: 10em;
+	line-height: 0.9em;
+	text-transform: uppercase;
+	color: $white;
+}
+
+h2 {
+	font-family: $font-primary-cond;
+	font-weight: 300;
+	font-size: 4em;
+	text-transform: uppercase;
+	color: $color-primary;
+}
+
+h3 {
+	font-family: $font-primary-cond;
+	font-weight: 300;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}

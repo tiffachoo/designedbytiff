@@ -1,0 +1,80 @@
+nav {
+	position: fixed;
+	z-index: 222;
+	top: 60px;
+	right: 60px;
+	width: 400px;
+	height: 50px;
+	transition: 0.2s;
+}
+
+nav ul {
+	position: absolute;
+	right: 0px;
+	list-style: none;
+	opacity: 0;
+	transition: 0.5s ease-in-out;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: $white;
+	font-family: $font-primary-cond;
+	font-weight: 300;
+	font-size: 1.1em;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	border-bottom: none;
+	padding: 20px;
+	line-height: 50px;
+}
+
+nav ul li a:hover {
+	color: $color-primary;
+}
+
+nav #boltIcon {
+	position: absolute;
+	right: 20px;
+	cursor: pointer;
+	width: auto;
+	height: auto;
+	transition: 0.5s ease-in-out;
+}
+
+nav #boltIcon:hover {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	transition: 0.5s ease-in-out;
+}
+
+nav #bolt {
+	transition: 0.2s ease-in-out;
+}
+
+nav circle {
+	transition: 0.2s ease-in-out;
+}
+
+.helloNav ul {
+	right: 80px;
+	opacity: 1;
+	transition: 0.5s ease-in-out;
+}
+
+.helloNav #bolt {
+	fill: $white;
+}
+
+.helloNav circle {
+	opacity: 0;
+	transition: 0.2s ease-in-out;
+}
+
+.helloBg {
+	background-color: rgba(0,0,0,0.8);
+	transition: 0.5s;
+}

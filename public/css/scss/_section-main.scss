@@ -1,0 +1,72 @@
+header {
+	position: relative;
+	z-index: 10;
+	height: 900px;
+}
+
+header .name {
+	position: absolute;
+	z-index: 9;
+	top: 300px;
+	left: 10%;
+}
+
+header .nameGreen {
+	position: fixed;
+	z-index: 10;
+	top: 325px;
+	left: calc(10% + 25px);
+	transition: 0.2s;
+}
+
+header .nameGreen p.fakeH1 {
+	font-family: $font-primary-cond;
+	font-weight: 300;
+	font-size: 10em;
+	line-height: 0.9em;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: $color-primary;
+}
+
+header .title {
+	position: absolute;
+	top: 50%;
+	left: 110%;
+	transform: translateY(-50%);
+}
+
+header .title p {
+	font-family: $font-primary-cond;
+	font-weight: 300;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	color: $color-primary;
+	white-space: nowrap;
+	letter-spacing: 0.03em;
+}
+
+header .headPatt1 {
+	position: fixed;
+	z-index: 8;
+	top: 390px;
+	left: 53%;
+	height: 20px;
+	width: 80%;
+}
+
+header .headPatt2 {
+	position: fixed;
+	z-index: 8;
+	top: 630px;
+	left: 0;
+	height: 20px;
+	width: 49%;
+}
+
+header .greenDiag {
+	transition: 0.2s;
+}

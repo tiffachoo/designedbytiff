@@ -1,0 +1,253 @@
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::selection {
+	background-color: $color-primary;
+}
+
+::-moz-selection {
+	background-color: $color-primary;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: $color-primary;
+	font-family: $font-primary;
+	font-weight: 300;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+
+.wrapz {
+	position: relative;
+	z-index: 5;
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	max-width: 1500px;
+	top: 20px;
+	left: 20px;
+	background-image: url('../img/jelly.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transition: 0.5s ease-in-out;
+	-webkit-overflow-scrolling: auto;
+}
+
+
+section {
+	min-height: 300px;
+	margin: 0 auto;
+}
+
+
+
+
+
+/***************************************************************************************/
+/* MEDIA QUERIES */
+
+
+/* SMALL SCREENS - max width 640 px */
+@media (max-width: 40em) {
+
+	nav {
+		right: 0px;
+		top: 0px;
+	}
+
+	nav.helloBg {
+		height: 100%;
+		width: 100%;
+	}
+	
+	nav ul {
+		top: 50%;
+		left: 10%;
+	}
+	
+	nav ul li {
+		display: block;
+	}
+	
+	nav ul li a {
+		font-size: 2em;
+	}
+	
+	nav #boltIcon {
+		right: 20px;
+		top: 20px;
+	}
+	
+	.helloNav ul {
+		display: none;
+	}
+	
+	.helloBg ul {
+		display: block;
+	}
+
+	header h1 {
+		font-size: 5em;
+	}
+
+	header .title {
+		position: relative;
+		top: 100px;
+		left: 0;
+	}
+
+	header .headPatt2 {
+		height: 15px;
+		width: 90%;
+		top: 470px;
+	}
+
+	#work {
+		width: 100%;
+	}
+
+	#work article {
+		width: calc(100% - 40px);
+		height: 200px;
+	}
+	
+	.workHovText p {
+		display: none;
+	}
+	
+	.workImg img {
+		width: 100%;
+		height: auto;
+	}
+	
+	#about article {
+		width: 100%;
+		margin: 0;
+		margin-top: 20px;
+	}
+	
+	footer {
+		height: 300px;
+	}
+	
+	footer article {
+		position: relative;
+		left: 0;
+		margin-top: 200px;
+	}
+	
+}
+
+/* MEDIUM SCREENS - max width 1024 px */
+@media (min-width: 40.063em) and (max-width: 64em) {
+
+	nav {
+		right: 40px;
+		top: 40px;
+	}
+
+	header h1 {
+		font-size: 7em;
+	}
+
+	header .title {
+		position: relative;
+		top: 100px;
+		left: 0;
+	}
+
+	header .headPatt2 {
+		width: 60%;
+		top: 525px;
+	}
+	
+	#work article {
+		width: calc(50% - 40px);
+	}
+	
+	.aboutBio {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	
+	.aboutSkillz {
+		width: calc(50% - 20px);
+		margin: 0;
+		margin-right: 20px;
+	}
+	
+	.aboutInterests {
+		width: 50%;
+		margin: 0;
+	}
+	
+}
+
+/* MEDIUM SCREEN ++ */ 
+@media (max-width: 64em) {
+	
+	.wrapz {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	header img {
+		left: 20px;
+		width: calc(100% - 50px);
+	}
+
+	header .nameGreen,
+	header .headPatt1 {
+		display: none;
+	}
+	
+	#about {
+		height: auto;
+	}
+	
+	.aboutPatt {
+		display: none;
+	}
+	
+	#workFrame {
+		overflow-y: scroll;
+	}
+	
+	#workFrame aside {
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding-bottom: 160px;
+	}
+	
+	#workFrame section {
+		position: relative;
+		top: auto;
+		left: 0;
+		margin-top: 20px;
+		width: 100%;
+		height: auto;
+		overflow: auto;
+	}
+	
+	#photo {
+		background-position: 50% 0;
+	}
+}

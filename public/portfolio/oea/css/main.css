@@ -1,0 +1,322 @@
+body {
+	background-color: #C5C3B5;
+}
+
+.headerBox {
+	background-color: #F6F6F3;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 40px 40px 40px 40px;
+}
+
+.mainNavBox {
+	background-color: #FF4D3A;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-top: 12%;
+	height: 55px;
+	text-align: center;
+	width: 112%;
+}
+
+.mainNavBox a, .mainNavBox a:visited {
+	color: #F6F6F3;
+	margin-left: 4.25%;
+	margin-right: 4.25%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height: 55px;
+	font-size: 100%;
+}
+
+.mainNavBox a:hover, .mainNavBox a:active {
+	color: #F6F6F3;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height: 55px;
+	border-bottom: solid 3px #F6F6F3;
+	font-size: 100%;
+}
+
+.mainNavBoxSm {
+	margin-top: 50px;
+}
+
+.mainNavBoxSm a, .mainNavBoxSm a:visited {
+	background-color: #C5C3B5;
+	color: #F6F6F3;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height: 40px;
+	font-size: 17px;
+	display: block;
+	text-align: center;
+}
+
+.mainNavBoxSm a:hover, .mainNavBoxSm a:active {
+	color: #F6F6F3;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height: 40px;
+	font-size: 17px;
+	background-color: #FF4D3A;
+}
+
+.diagPattern {
+	background-image: url(../images/diag_lines.png);
+	height: 20px;
+	width: 109.5%;
+}
+
+.sliderBox {
+	margin-bottom: 15px;
+	padding: 0px;
+}
+
+.navBox {
+	background-color: #ED9071;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+
+.orangeBtn {
+	margin: 0px;
+	background-color: #ED9071;
+	text-transform: uppercase;
+	letter-spacing: 0em;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #F6F6F3;
+}
+
+.orangeBtn:hover, .orangeBtn:active .orangeBtn:focus {
+	background-color: #FF4D3A;
+	text-transform: uppercase;
+	letter-spacing: 0em;
+	color: #F6F6F3;
+}
+
+.button-group > * > button, .button-group > * .button {
+	border: none;
+}
+
+.contentBox {
+	background-color: #F6F6F3;
+	margin-bottom: 15px;
+	padding: 30px 15px 15px 15px;
+	color: #4B5455;
+}
+
+.contentBox a:link, .contentBox a:visited {
+	color: #ED9071;
+}
+
+.contentBox a:hover, .contentBox a:active, .contentBox a:focus {
+	color: #FF4D3A;
+}
+
+.contentBox i {
+	font-size: 13px;
+}
+
+.contentBox p, label {
+	font-size: 15px;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	color: #F6F6F3;
+	background-color: #FF4D3A;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 30px;
+	display: block;
+	padding: 10px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	color: #FF4D3A;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 25px;
+}
+
+.contentBox img {
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+
+.diagDivider {
+	background-image: url(../images/diag_lines.png);
+	height: 10px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.footerBox {
+	background-color: #4B5455;
+	margin-bottom: 30px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	color: #F6F6F3;
+	padding: 30px 15px 15px 15px;
+}
+
+.footerBox a:link, .footerBox a:visited {
+	color: #F6F6F3;
+}
+
+.footerBox a:hover, .footerBox a:active {
+	color: #ED9071;
+}
+
+.footerBox p {
+	font-size: 12px;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+h3 {
+	color: #ACC7CC;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 20px;
+}
+
+h4 {
+	color: #F6F6F3;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 20px;
+	line-height: 40px;
+	padding-left: 30px;
+}
+
+.darkBlue {
+	background-color: #4B5455;
+}
+
+.menu-icon {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #ED9071;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.top-bar-section ul li:hover > a {
+  	color: #4B5455;
+	background-color: #ACC7CC;
+}
+
+.top-bar-section ul li > a {
+	color: #F6F6F3;
+	background-color: #4B5455;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+.top-bar-section .dropdown li a {
+	color: #F6F6F3;
+	background-color: #4B5455;
+}
+
+.top-bar-section .dropdown li a:hover {
+  	color: #4B5455;
+	background-color: #ACC7CC;
+}
+
+.top-bar-section .has-dropdown > a {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #F6F6F3;
+	background-color: #4B5455;
+}
+
+.top-bar-section li a:not(.button) {
+	color: #F6F6F3;
+	background-color: #4B5455;
+}
+
+.top-bar-section li a:not(.button):hover {
+  	color: #4B5455;
+	background-color: #ACC7CC;
+}
+
+h5 {
+	color: #ED9071;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 22px;
+	line-height: 30px;
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+
+input, option, select {
+	font-size: 15px;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	color: #4B5455;
+}	
+
+fieldset legend {
+	color: #ED9071;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 22px;
+	background-color: #F6F6F3;
+}
+
+.regLink a:link, .regLink a:visited {
+	color: #F6F6F3;
+	margin-bottom: 20px;
+}
+
+	
+/* FOR SMALL SCREEN ONLY */
+
+@media only screen and (max-width: 40.063em) {
+	.headerBox {
+		border-radius: 0px;
+	}
+	
+	.footerBox {
+		border-radius: 0px;
+	}
+}
+
+@media only screen and (max-width: 65.5em) {
+	.mainNavBox {
+		width: 109.5%;
+		border-radius: 0px;
+	}
+}

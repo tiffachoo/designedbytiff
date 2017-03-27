@@ -1,0 +1,315 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700,300italic);
+
+body {
+	cursor: default;
+	background-color: #313533;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+::selection {
+	background-color: #EF5000;
+}
+
+::-moz-selection {
+	background-color: #EF5000;
+}
+
+#btnLeft:hover,
+#btnRight:hover,
+#btn01:hover,
+#btn02:hover,
+#btn03:hover,
+.closeX:hover,
+#gphBtnAll:hover,
+#gphBtnCan:hover,
+#gphBtnCos:hover,
+#gphBtnDec:hover,
+#candyBag:hover {
+	cursor: pointer;
+}
+
+#btnLeft {
+	display: none;
+}
+
+#btnLeft:hover .btnLeftCir {
+	opacity: 0.7;
+}
+
+#btnLeft:hover .btnLeftArw {
+	fill: #6ABAA3;
+}
+
+#btnRight:hover .btnRightCir {
+	opacity: 0.7;
+}
+
+#btnRight:hover .btnRightArw {
+	fill: #6ABAA3;
+}
+
+#btn01Hov,
+#btn02Hov,
+#btn03Hov {
+	display: none;
+	opacity: 0;
+	transition: 1s;
+	transform: translateY(10px);
+}
+
+#btn01:hover #btn01Hov {
+	display: block;
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+#btn02:hover #btn02Hov {
+	display: block;
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+#btn03:hover #btn03Hov {
+	display: block;
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.btnContainer {
+	background-color: rgba(239, 80, 0, 0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#videoContainer,
+#graphContainer,
+#articleContainer {
+	display: none;
+}
+
+.content {
+	background-color: #F7A780;
+	margin: 10%;
+	padding: 2.5%;
+	width: 75%;
+	height: 55%;
+}
+
+.closeX {
+	position: absolute;
+	z-index: 20;
+	top: 10px;
+	right: 10%;
+	font-size: 6em;
+	font-weight: 600;
+	color: #F7A780;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.closeX:hover {
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+#articleBat {
+	position: absolute;
+	top: 7%;
+	left: 2%;
+	width: 40%;
+}
+
+#graphElements {
+	position: absolute;
+	z-index: 40;
+	top: 27%;
+	left: 10%;
+}
+
+#graphTitle {
+	position: absolute;
+	top: 22%;
+	left: 0%;
+	width: 100%;
+	font-size: 2em;
+	color: #333;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#SVGcontainer {
+	position: absolute;
+	z-index: 50;
+	left: 15%;
+	border: none;
+	width: 70%;
+	height: 55%;
+}
+
+#SVGgraph {
+	position: absolute;
+	z-index: 5;
+	left: 15%;
+	border: none;
+	width: 70%;
+	height: 55%;
+}
+
+#gphBtnAllHov,
+#gphBtnCanHov,
+#gphBtnCosHov,
+#gphBtnDecHov {
+	display: none;
+	opacity: 0;
+	transition: 1s;
+	transform: translateX(-10px);
+}
+
+#gphBtnAll:hover #gphBtnAllHov {
+	display: block;
+	opacity: 1;
+	transform: translateX(0px);
+}
+
+#gphBtnCan:hover #gphBtnCanHov {
+	display: block;
+	opacity: 1;
+	transform: translateX(0px);
+}
+
+#gphBtnCos:hover #gphBtnCosHov {
+	display: block;
+	opacity: 1;
+	transform: translateX(0px);
+}
+
+#gphBtnDec:hover #gphBtnDecHov {
+	display: block;
+	opacity: 1;
+	transform: translateX(0px);
+}
+
+#graph2005Hov,
+#graph2006Hov,
+#graph2007Hov,
+#graph2008Hov,
+#graph2009Hov,
+#graph2010Hov,
+#graph2011Hov,
+#graph2012Hov,
+#graph2013Hov,
+#graph2014Hov {
+	display: none;
+}
+
+.articleContent {
+	color: #333;
+	-webkit-column-count: 3;
+    -moz-column-count: 3; 
+    column-count: 3;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+}
+
+.articleContent p {
+	font-size: 0.75em;
+	line-height: 1.4em;
+}
+
+.articleContent h2 {
+	font-size: 2.5em;
+	line-height: 1em;
+	color: #EF5000;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-shadow: 4px 0px 0px rgba(236, 85, 0, 0.3);
+}
+
+a:link,
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EF5000;
+}
+
+video {
+	height: 100%;
+}
+
+#vidCtrls {
+	position: absolute;
+	top: 65%;
+	left: 70%;
+}
+
+#vidCtrls input[type=button] {
+	border: none;
+	background-color: #EF5000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #F7A780;
+	padding: 10px;
+	margin: 0 5px 10px 5px;
+	border-radius: 15px;
+}
+
+#vidCtrls input[type=button]:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+#vidCtrls input[type=range] {
+	width: 100%;
+}
+
+
+#candyBagHov {
+	display: none;
+	opacity: 0;
+	transition: 2s;
+	transform: translateX(100px);
+}
+
+#candyBag:hover #candyBagHov {
+	display: block;
+	opacity: 1;
+	transition: 2s;
+	transform: translateX(0px);
+}
+
+#witchBtn:hover #witchBtnHov {
+	fill: #97CFBF;
+}
+
+#animalBtn:hover #animalBtnHov {
+	fill: #97CFBF;
+}
+
+#batmanBtn:hover #batmanBtnHov {
+	fill: #97CFBF;
+}
+
+#pirateBtn:hover #pirateBtnHov {
+	fill: #97CFBF;
+}
+
+#zombieBtn:hover #zombieBtnHov {
+	fill: #97CFBF;
+}
+
+#vampireBtn:hover #vampireBtnHov {
+	fill: #97CFBF;
+}
+
+#vampireShow {
+	display: none;
+}

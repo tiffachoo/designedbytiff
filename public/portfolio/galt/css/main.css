@@ -1,0 +1,666 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	line-height: 33px;
+	font-size: 20px;
+}
+
+a:link, a:visited {
+	color: #a6ce3a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #afc176;
+}
+
+#intro { 
+	background: url('../images/intro_bg.jpg') 50% 0 repeat fixed; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	z-index: 100;
+}
+
+#logoIntro { 
+	background: url('../images/galt_logo.svg') no-repeat; 
+	min-height: 150px; 
+	height: 150px; 
+	margin: 0 auto; 
+	width: 300px; 
+	max-width: 300px; 
+	position: relative; 
+	z-index: 101;
+	top: 30%;
+}
+
+.down {
+	position: relative;
+	top: 500px;
+	text-align: center;
+	opacity: 0.5;
+}
+
+.topbar {
+	width: 100%;
+	z-index: 90;
+	position: fixed;
+	top: -30px;
+}
+
+.logoTopbar {
+	background: url('../images/galt_logo_ban.svg') no-repeat;
+	position: relative;
+	z-index: 91;
+	height: 220px;
+	left: 10%;
+}
+
+#about { 
+	background-color: #b9b4b3; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#about article { 
+	height: 458px; 
+	position: absolute; 
+	top: 200px; 
+	left: 50%;
+	width: 480px; 
+	color: #383330;
+}
+
+#about article h2 {
+	color: #db6a27;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 25px;
+	line-height: 1em;
+}
+
+#aboutImg {
+	width: 400px;
+	height: 100%;
+	background: url('../images/about_trees.jpg') no-repeat fixed;
+	position: relative;
+	left: 10%;
+	top: 0px;
+}
+
+#events { 
+	background-color: #48423f; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#events article { 
+	height: 458px; 
+	position: absolute; 
+	top: 200px; 
+	left: 10%;
+	width: 480px; 
+	color: #FFF;
+}
+
+#events article h2 {
+	color: #a6ce3a;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 25px;
+	line-height: 1em;
+}
+
+#eventsImg {
+	width: 400px;
+	height: 100%;
+	background: url('../images/events_trees.jpg') no-repeat fixed;
+	background-position: 0 0;
+	position: relative;
+	left: 60%;
+	top: 0px;
+}
+
+#deer { 
+	background: url('../images/deer_bg.jpg') 50% 0 repeat fixed; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+
+#membership { 
+	background-color: #a6ce3a; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#membership article { 
+	height: 458px; 
+	position: absolute; 
+	top: 200px; 
+	left: 10%;
+	width: 960px; 
+	color: #383330;
+}
+
+#membership article h2 {
+	color: #e1dfde;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 25px;
+	line-height: 1em;
+}
+
+#membership a:link, #membership a:visited {
+	color: #e1dfde;
+}
+
+#membership a:hover {
+	color: #b9b4b3;
+}
+
+.greenArrow {
+	position: relative;
+	background: url('../images/green_arrow.png') 50% 0 no-repeat; 
+    bottom: 50px;
+    z-index: 1;
+    height: 60px;
+    width: 100%;
+}
+
+#safety { 
+	background-color: #857f7c; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#safety article { 
+	height: 458px; 
+	position: absolute; 
+	top: 200px; 
+	left: 10%;
+	width: 960px; 
+	color: #FFF;
+}
+
+#safety article h2 {
+	color: #48423f;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 25px;
+	line-height: 1em;
+}
+
+#safety a:link, #safety a:visited {
+	color: #b9b4b3;
+}
+
+#safety a:hover {
+	color: #48423f;
+}
+
+#lake { 
+	background: url('../images/lake_bg.jpg') 50% 0 repeat fixed; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+
+#sportLinks { 
+	background-color: #db6a27; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#sportLinks article { 
+	height: 458px; 
+	position: absolute; 
+	top: 70px; 
+	left: 50%;
+	width: 480px; 
+	color: #e1dfde;
+}
+
+#sportLinks article h2 {
+	color: #e1dfde;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 25px;
+	line-height: 1em;
+}
+
+#sportLinks a:link, #sportLinks a:visited {
+	color: #e1dfde;
+}
+
+#sportLinks a:hover {
+	color: #b9b4b3;
+}
+
+#linksImg {
+	width: 400px;
+	height: 100%;
+	background: url('../images/links_deer.jpg') no-repeat fixed;
+	position: relative;
+	left: 10%;
+	top: 0px;
+}
+
+#footer { 
+	background-color: #48423f; 
+	min-height: 150px; 
+	height: 150px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#footer article { 
+	position: absolute; 
+	left: 10%;
+	width: 960px; 
+	color: #e1dfde;
+	font-size: 14px;
+	line-height: 20px;
+	top: 40px;
+}
+
+.icons {
+	float: left;
+	margin-right: 10px;
+}
+
+.icons img {
+	margin-right: 10px;	
+}
+
+.address {
+	float: left;
+	width: 85%;
+	margin-top: -3px;
+}
+
+.top {
+	position: relative;
+	bottom: 70px;
+	text-align: center;
+	opacity: 0.5;
+}
+
+
+/*CLAY TARGETS*/
+
+#fiveStand { 
+	background: url('../images/5stand_bg.jpg') 50% 0 no-repeat fixed; 
+	background-color: #b9b4b3; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#fiveStand article { 
+	height: 458px; 
+	position: absolute; 
+	top: 200px; 
+	left: 50%;
+	width: 480px; 
+	color: #e1dfde;
+}
+
+#fiveStand article h2 {
+	color: #857f7c;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 25px;
+	line-height: 1em;
+}
+
+#fitasc { 
+	background-color: #857f7c; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#fitasc article { 
+	height: 458px; 
+	position: absolute; 
+	top: 200px; 
+	left: 10%;
+	width: 480px; 
+	color: #e1dfde;
+}
+
+#fitasc article h2 {
+	color: #a6ce3a;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 25px;
+	line-height: 1em;
+}
+
+#fitascImg {
+	width: 400px;
+	height: 100%;
+	background: url('../images/fitasc_clays.jpg') no-repeat fixed;
+	background-position: 0 0;
+	position: relative;
+	left: 60%;
+	top: 0px;
+}
+
+#skeet { 
+	background-color: #48423f; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#skeet article { 
+	height: 458px; 
+	position: absolute; 
+	top: 200px; 
+	left: 50%;
+	width: 480px; 
+	color: #e1dfde;
+}
+
+#skeet article h2 {
+	color: #857f7c;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 25px;
+	line-height: 1em;
+}
+
+.brownArrow {
+	position: relative;
+	background: url('../images/brown_arrow.png') 50% 0 no-repeat; 
+    bottom: 50px;
+    z-index: 1;
+    height: 60px;
+    width: 100%;
+}
+
+#sportingClays { 
+	background-color: #db6a27; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#sportingClays article { 
+	height: 458px; 
+	position: absolute; 
+	top: 200px; 
+	left: 10%;
+	width: 480px; 
+	color: #e1dfde;
+}
+
+#sportingClays article h2 {
+	color: #e1dfde;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 25px;
+	line-height: 1em;
+}
+
+.orangeArrow {
+	position: relative;
+	background: url('../images/orange_arrow.png') 50% 0 no-repeat; 
+    bottom: 50px;
+    z-index: 1;
+    height: 60px;
+    width: 100%;
+}
+
+#trap { 
+	background-color: #b9b4b3; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+ 
+#trap article { 
+	height: 458px; 
+	position: absolute; 
+	top: 200px; 
+	left: 50%;
+	width: 480px; 
+	color: #383330;
+}
+
+#trap article h2 {
+	color: #48423f;
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	margin-bottom: 25px;
+	line-height: 1em;
+}
+
+#target1 {
+	height: 100%;
+	background: url('../images/brown_clay.png') no-repeat fixed;
+	position: relative;
+	left: 0%;
+	top: 0px;
+}
+
+#target2 {
+	height: 100%;
+	background: url('../images/brown_clay2.png') no-repeat fixed;
+	position: relative;
+	left: 0%;
+	top: 0px;
+}
+
+#target3 {
+	height: 100%;
+	background: url('../images/brown_clay3.png') no-repeat fixed;
+	position: relative;
+	left: 0%;
+	top: 0px;
+}
+
+#gunner { 
+	background: url('../images/gun_bg.jpg') 50% 0 repeat fixed; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+
+#gunner2 { 
+	background: url('../images/gun_bg2.jpg') 50% 0 repeat fixed; 
+	min-height: 800px; 
+	height: 800px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+}
+
+/*DROP DOWN MENU*/
+
+#cssmenu {
+	padding: 0; 
+	margin: 0; 
+	border: 0;
+	background: #787371;
+	font-size: 12px; 
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	padding-left: 25%
+}
+#cssmenu ul, #cssmenu li {
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+}
+#cssmenu ul {
+	position: relative; 
+	z-index: 597; 
+}
+#cssmenu ul li { 
+	float: left; 
+	vertical-align: middle;
+	min-height: 1px; 
+	text-align: center;
+}
+#cssmenu ul li.hover, #cssmenu ul li:hover {
+	position: relative; 
+	z-index: 599; 
+	cursor: default;
+}
+#cssmenu ul ul {
+	visibility: hidden; 
+	position: absolute; 
+	top: 100%; 
+	left: 0; 
+	bottom: 0; 
+	z-index: 598; 
+	width: 100%;
+	margin-top: 0px;
+}
+#cssmenu ul ul li {
+	float: none;
+	font-weight: normal;
+	position: relative;
+}
+
+#cssmenu ul li:hover > ul { 
+	visibility: visible;
+}
+#cssmenu a { 
+	display: block; 
+	line-height: 1em; 
+	text-decoration: none; 
+	background: #787371;
+	color: #FFF;
+	padding: 0 25px; 
+	text-transform: uppercase;
+}
+#cssmenu > ul { 
+	*display: inline-block; 
+}
+#cssmenu:after, #cssmenu ul:after {
+    display: block;
+    clear: both; 
+}
+#cssmenu ul ul a {
+	background: #a6ce3a;
+	color: #48423f;
+	line-height: 40px;
+	text-align: left;
+	width: 140px;
+	text-transform: none;
+}
+#cssmenu > ul > li > a { 
+	line-height: 70px;  
+}
+#cssmenu ul ul li:hover > a { 
+	background: #afc176; 
+	color: #48423f;
+}
+#cssmenu ul ul li.hasSub > a:after {
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	margin-top: -8px;
+}
+#cssmenu ul li:hover > a {
+	background: #9f9997;
+	color: #FFF;
+}
+#cssmenu ul li.hasSub > a:after {
+	margin-left: 5px; 
+}
+#cssmenu ul li.last ul {
+	left: auto;
+	right: 0; 
+}
+#cssmenu ul li.last ul ul {
+	left: auto;
+	right: 99.5%;
+}
