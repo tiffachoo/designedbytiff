@@ -1,0 +1,1 @@
+module.exports = process.env.NODE_ENV === 'production' ? require('./webpack/webpack.dist.config.js') : require('./webpack/webpack.base.config.js');

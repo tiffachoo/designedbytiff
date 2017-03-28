@@ -10,10 +10,13 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "chalk": "^1.1.3",
     "compression": "^1.6.2",
     "ejs": "2.4.1",
     "express": "4.13.3",
     "express-ejs-layouts": "^2.2.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "webpack": "^2.3.2"
   },
   "keywords": [
@@ -25,5 +28,22 @@
   "devDependencies": {
     "webpack-dev-server": "^2.4.2"
   },
-  "author": "Tiff"
+  "author": "Tiff <tiff.a.choong@gmail.com>",
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils",
+      "<rootDir>/node_modules/fbjs"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ],
+    "testFileExtensions": [
+      "spec.js",
+      "spec.jsx"
+    ],
+    "testDirectoryName": "client"
+  }
 }
